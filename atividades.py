@@ -17,7 +17,7 @@ print(float(n1-n2))
                 atividade 3
 n1=int(input("digite um numero: "))
 
-for i  in range (n1,n1*10,n1):
+for i  in range (n1,n1*11,n1):
     print(i)
                 atividade 4
 numero=""
