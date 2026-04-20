@@ -3,7 +3,7 @@ atividade 1
 nome = input("qual seu nome: ")
 idade = int(input("Qual sua idade: "))
 cidade = input("Qual sua cidade: ")
-print(f"Olá,meu nome é {nome} tenho {idade}anos e moro em {cidade}")
+print(f"Olá,meu nome é {nome} tenho {idade} anos e moro em {cidade}")
 
                 atividade 2
 n1 = float(input("digite um numero: "))
