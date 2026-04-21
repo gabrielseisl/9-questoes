@@ -63,22 +63,12 @@ for i, item in enumerate(compras,start=1):
 
 
 def par_ou_impar():
-    n1=int(input("qual seu numero: "))
-    n2=int(input("qual seu numero: "))
-    n3=int(input("qual seu numero: "))
-    if int (n1)%2==0:
-        print("par")
-    else:
-        print("impar")
-    if int (n2)%2==0:
-        print("par")
-    else:
-        print("impar")
-    if int (n3)%2==0:
-        print("par")
-    else:
-        print("impar")
-
+    for i in range(3):
+        numero = int(input("Qual seu número: "))
+        if numero % 2 == 0:
+            print(f"{numero} é par")
+        else:
+            print(f"{numero} é ímpar")
 par_ou_impar()
 
             atividade 8 
