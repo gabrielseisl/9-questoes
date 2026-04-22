@@ -72,15 +72,6 @@ def par_ou_impar():
 par_ou_impar()
 
             atividade 8 
-            def calcular_imc(peso,altura):
-    peso=int(input("qual seu peso: "))
-    altura=float(input("qual sua altura: "))
-    imc=peso/(altura**2)
-    
-calcular_imc()
-
-            
-
 def calcular_imc():
     peso=int(input("qual seu peso: "))
     altura=float(input("qual sua altura: "))
