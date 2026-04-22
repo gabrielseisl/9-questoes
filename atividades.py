@@ -79,16 +79,6 @@ def calcular_imc():
     print(imc)
 
 
-
-
-def calcular_imc():
-    peso=float(input("qual seu peso: "))
-    altura=float(input("qual sua altura: "))
-    imc=int(peso/(altura**2))
-    print(imc)
-
-
-
 def classificar_imc():
     print("qual seu imc?")
     classificacao=int(input("digite aqui seu imc: "))
